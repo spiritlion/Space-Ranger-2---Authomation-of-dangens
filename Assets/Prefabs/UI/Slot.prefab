@@ -144,7 +144,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 4331f6f926d811547a381799842f4a60, type: 3}
+  m_Sprite: {fileID: 0}
   m_Type: 0
   m_PreserveAspect: 1
   m_FillCenter: 1
@@ -166,7 +166,7 @@ GameObject:
   - component: {fileID: 7220541719723782816}
   - component: {fileID: 1992177586734241966}
   - component: {fileID: 764787868141724226}
-  - component: {fileID: 5150394659854936392}
+  - component: {fileID: 1022026544158725546}
   m_Layer: 5
   m_Name: Slot
   m_TagString: Untagged
@@ -277,7 +277,7 @@ MonoBehaviour:
   m_OnClick:
     m_PersistentCalls:
       m_Calls: []
---- !u!114 &5150394659854936392
+--- !u!114 &1022026544158725546
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -286,6 +286,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 9092259994975608328}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 124d6567b662a79459d8257bbde18ed4, type: 3}
+  m_Script: {fileID: 11500000, guid: 3f0eae1858442e64fb827e05f85b7b70, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  item: {fileID: 0}
+  itemInSlot: {fileID: 3429783166318836651}
+  TextInSlot: {fileID: 635586546941935919}

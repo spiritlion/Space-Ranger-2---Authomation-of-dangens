@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e07813e0def69e54c87e0c306b5df97f, type: 3}
   m_Name: Apple
   m_EditorClassIdentifier: 
-  itemType: 1
-  name: "\u042F\u0431\u043B\u043E\u043A\u043E"
-  maxAmount: 10
-  description: 
-  healAumont: 1.38
+  title: "\u042F\u0431\u043B\u043E\u043A\u043E"
+  amount: 12
+  sprite: {fileID: 21300000, guid: 4331f6f926d811547a381799842f4a60, type: 3}
+  HealthPlus: 20

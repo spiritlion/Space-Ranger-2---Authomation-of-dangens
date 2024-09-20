@@ -16,7 +16,6 @@ public class PlayerMove : MonoBehaviour
 
       transform.Translate(new Vector3(hor, 0 , ver) * Time.deltaTime * _mult * speed, Space.Self);
 
-      player.transform.localRotation = Quaternion.Euler(0, 0, 0);
 
     }
 }
