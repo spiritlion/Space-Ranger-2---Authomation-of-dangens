@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   title: "\u042F\u0431\u043B\u043E\u043A\u043E"
   amount: 12
-  sprite: {fileID: 21300000, guid: 4331f6f926d811547a381799842f4a60, type: 3}
+  sprite: {fileID: 21300000, guid: e388811ec611b854aaf71c877f4d62a9, type: 3}
   HealthPlus: 20
