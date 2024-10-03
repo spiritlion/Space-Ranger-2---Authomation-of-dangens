@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class BarsControler : MonoBehaviour
 {
@@ -21,5 +22,11 @@ public class BarsControler : MonoBehaviour
     public bool isLive()
     {
       return HealthBar.transform.rotation.eulerAngles.z < 180;
+    }
+
+    public void Healthing(float HealthPlus, float ArmorPlus)
+    {
+      HealthBar.transform.Rotate(0, 0, HealthPlus);
+      ArmorBar.transform.Rotate(0, 0, HealthPlus);
     }
 }

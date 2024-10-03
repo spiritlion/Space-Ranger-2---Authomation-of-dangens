@@ -8,4 +8,8 @@ public class ItemScriptableObject : ScriptableObject
     public int amount;
     public Sprite sprite;
 
+    public void isClick()
+    {
+      Debug.Log("isClick in ItemScriptableObject");
+    }
 }
